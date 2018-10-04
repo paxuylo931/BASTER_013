@@ -2,7 +2,7 @@
   width: 300px;
   height: 437px;
   background-color: red;
-  position: relative;
+  position: absolute;
   top: 250px;
   left: 300px;
 }
@@ -11,23 +11,23 @@
   height: 50px;
   background-color: lightblue;
   border: 6px solid black;
-  position: relative;
+  position: absolute;
   top:100px;
-  left: 90px;
+  left: 100px;
 }
 .dver{
   width: 75px;
   height: 140px;
   background-color: black;
-  position:relative;
-  top:235PX;
+  position:absolute;
+  top:297pX;
   left: 120PX;
 }
 .ruchka{
   width: 10px; height: 10px;
 background: #83A7C9;
 border-radius: 50%;
-position:relative;
+position:absolute;
 top: 50px;
 left: 60px;
 }
@@ -35,8 +35,8 @@ left: 60px;
   width: 150px;
   height: 100px;
   background: #c100b1;
-  position:relative;
-  top: -65px;
+  position:absolute;
+  top: 150px;
   left: -150px;
 }
 .krusha{
@@ -44,8 +44,8 @@ left: 60px;
 border-left: 200px solid transparent;
 border-right: 200px solid transparent;
 border-bottom: 100px solid #c100b1;
-position: relative;
-top: -285px;
+position: absolute;
+top: 150px;
 left: 250px;
 z-index: 10;
 }
@@ -53,8 +53,8 @@ z-index: 10;
   width: 50px;
   height:150px;
   background: #ed07ab;
-  position:relative;
-  top: -440px;
+  position:absolute;
+  top: 80px;
   left: 500px;
 
 }

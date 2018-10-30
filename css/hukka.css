@@ -1,0 +1,46 @@
+header img{
+  width: 380px;
+  height: 115px;
+  float: left;
+}
+header  {
+display: inline-block;
+}
+header h1{
+  margin-left: 400px;
+}
+.radok1 img{
+  float: left;
+  width: 300px;
+height: 300px;
+}
+.radok2 img {
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+.radok1   {
+font-size: 18px;
+}
+.radok1 h2 {
+  text-align: center;
+
+}
+.radok2{
+  font-size: 18px;
+  margin-top: 150px;
+}
+footer img{
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+footer {
+  margin-top: 195px;
+  font-size: 18px;
+}
+.blokwpodvale{
+  width: 10%;
+  float: left;
+  margin-left: 5%;
+}

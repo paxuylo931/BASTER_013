@@ -1,0 +1,26 @@
+.kvadrat-1, .kvadrat-2, .kvadrat-3{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: yellow ;
+}
+
+.kvadrat-2{
+top: -30px;
+left: 160px;
+}
+
+.kvadrat-3{
+  top: -60px;
+  left:310px;
+}
+
+.blok1, .blok2, .blok3 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+}
+.blok-1{
+  font-size: 0;
+}

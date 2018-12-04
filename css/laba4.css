@@ -1,0 +1,175 @@
+header{
+background-image: linear-gradient(rgba(0, 168, 178, 0.4) 20%, rgba(0, 241, 255, 1)), url(../img/background.png);
+background-size: 100% 100%;
+display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 645px;
+}
+header .left {
+    font-size: 30px;
+    flex: 0;
+    width: 55%;
+    font-family: Catamaran-Bold;
+    text-align: center;
+  }
+header .right{
+  box-shadow: 0px 6px 5.64px 0.36px rgba(44, 43, 45, 0.7);
+  background-color: rgb(51, 51, 51, 0.9);
+  width: 22%;
+  min-height: 260px;
+  flex-grow: 0;
+
+}
+
+body{
+  margin: 0 5%;
+  letter-spacing: 2px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+  }
+  .join{
+    color: rgb(231,231,231);
+     flex-grow: 0;
+     width: 100%;
+     font-size: 15px;
+     text-align: center;
+     font-family: Catamaran-Bold;
+     padding-top: 8px;
+ }
+  .sing{
+    background-color: rgb(231,231,231);
+    color: rgb(51,51,51);
+    width: 100%;
+    flex-grow: 0;
+    min-height: 40px;
+    font-size: 15px;
+    text-align: center;
+    font-family: Catamaran-Bold;
+    padding-top: 8px;
+}
+form input{
+  background-color: white;
+    border: none;
+    width: 100%;
+    min-height: 25px;
+    margin-top: 10px;
+}
+form {
+  font-family: Catamaran-Regular;
+  color: rgb(231,231,231);
+      padding: 0 5%;
+}
+form p{
+  margin: 10px 0 0 0;
+    font-size: 9px;
+}
+button {
+  width: 100%;
+  border: none;
+  background-color: orange;
+  color: black;
+  font-family: Catamaran-Black;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 15px 0;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+main p {
+  text-align: left;
+  width: 67%;
+  font-family: Catamaran-Regular;
+}
+
+main h2 {
+  color: #02a9b2;
+  text-align: center;
+  font-size: 35px;
+  font-family: Catamaran-ExtraBold;
+  margin-top: 35px;
+}
+.radok{
+  display: flex;
+  justify-content: space-evenly;
+}
+.duf{
+  flex-grow: 0;
+  width: 23%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.duf img{
+  width: 77px;
+  height: 77px;
+}
+.duf h5{
+    color: #02a9b2;
+    text-align:center;
+    font-size: 20px;
+    font-family: Catamaran-ExtraBold;
+    margin: 0;
+
+}
+.duf p{
+  text-align: center;
+  fo
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-family: Catamaran-Regular;
+  background-color: rgb(51,51,51);
+  padding: 20px 3%;
+  color: rgb(231,231,231);
+}
+footer>img{
+  width: 20%;
+  height: 120px;
+}
+
+.fur {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  width: 20%;
+  }
+
+  .fur img{
+    height: 5px;
+    margin-top: 10px;
+
+  }
+  .fur h5{
+    margin: 0 5px;
+  }
+@media (max-width: 800px) {
+  header .right {
+    width: 80%;
+  }
+  header .left{
+    width: 80%;
+  }
+  header{
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 600px) {
+  .duf{
+    width: 40%;
+  }
+  .radok{
+    flex-wrap: wrap;
+
+  }
+}
